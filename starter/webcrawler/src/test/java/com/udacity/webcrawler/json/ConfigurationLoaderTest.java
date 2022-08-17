@@ -51,7 +51,7 @@ public final class ConfigurationLoaderTest {
   }
 
   @Test
-  public void testOptionalOptions() {
+  public void testOptionalOptions() throws IOException{
     // Same as above, but without any explicit implementationOverride or parallelism.
     String json = "{ " +
         "\"maxDepth\": 100, " +
